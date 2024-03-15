@@ -1,0 +1,79 @@
+.khung-chinh{
+    width: 100%;
+}
+.tieude{
+    margin: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.tieude a{
+    color: #065b90;
+    font-size: 1.1rem;
+}
+.tieude a:hover{
+    color: #d6d988;
+}
+.trangchu{
+
+}
+.tieudetrai{
+    padding: 20px;
+    color: #fff;
+    background-color: #797c11;
+    display: block;
+}
+.danhsachdanhmuc{
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 0px;
+    padding: 0;
+    margin-top: 5px;
+    background-color: #fff;
+}
+.donvidanhmuc{
+    padding: 10px 20px;
+    border-bottom:0.5px dotted #333 ;
+}
+.lienketdanhmuc{
+    color: #797c11;
+    display: block;
+    width: 100%;
+}
+.lienketdanhmuc:hover{
+    cursor: pointer;
+    color: rgb(13, 2, 49);
+}
+
+
+.tieudephai{
+    padding: 20px;
+    color: #fff;
+    background-color: #797c11;
+    text-align: center;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+td{
+    vertical-align:middle;
+}
+
+thead{
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 0.5px solid rgb(176, 175, 175);
+}
+
+td{
+    border-bottom: 0.5px solid rgb(177, 177, 177);
+    height: 100px;
+}
+
+.dong {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}

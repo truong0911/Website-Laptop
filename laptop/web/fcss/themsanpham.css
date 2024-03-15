@@ -1,0 +1,82 @@
+
+.mucthemsanpham{
+   width: 100%; 
+   display: flex;
+   justify-content: center;
+}
+.mucthemsanpham2{
+   width: 100%; 
+   display: flex;
+   justify-content: center;
+}
+.mucthemsanpham3{
+   width: 100%; 
+   display: flex;
+   justify-content: center;
+}
+.tb{
+   width: 100%; 
+   display: flex;
+   justify-content: center;
+}
+.tieude-themsanpham{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+    
+}
+.khungthemsanpham{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 40%;
+
+}
+.onhap{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.onhap input{
+    height: 30px;
+}
+select{
+    height: 30px;
+}
+
+.xacnhan{
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 20px;
+}
+.xacnhan button{
+    margin: 0 10px;
+    height: 30px;
+    width: 20%;
+}
+
+.dis{
+    display: none;
+}
+/*.main{*/
+.khung{
+    position: relative;
+}
+.active{
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+.themsanpham{
+    cursor: pointer;
+}
+.themsanpham2{
+    cursor: pointer;
+}
+.themsanpham3{
+    cursor: pointer;
+}
+.tieudethem{
+    font-weight: bold;
+}

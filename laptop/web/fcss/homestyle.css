@@ -1,0 +1,551 @@
+*{
+    font-family: Poppins-Medium;
+}
+.khung{
+    height: 2000px;
+}
+/* Header */
+.ttruot{
+    position: relative;
+}
+.tieude-ttruot{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    height: 16%;
+    line-height: 84px;
+    transition: all 0.6s ease-in-out;
+}
+.dinh{
+    background-color: #151414;
+    box-shadow: 0px 2px 5px rgb(101, 101, 101) ;
+
+}
+
+
+.bieutuong{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 0 50px;
+}
+#timkiem{
+    display: flex;
+    width: 350px;
+    position: relative;
+    height: 36px;
+
+    text-align: center;
+    line-height: 24px;
+}
+
+.onhap-tk{ 
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 0.5px solid #333;
+
+}
+.nut-timkiem{
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.onhap-tk:focus{
+    border: 2px solid #50aef0;
+    outline: none;
+}
+
+.bieutuong-kn{
+    color: rgb(215, 220, 223);
+    flex: 1;
+}
+
+.bien-phai{
+    border-right: 0.5px solid rgb(120, 119, 119);
+}
+.thanhcongcu{
+    height: 100%;
+    line-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.congcu{
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+.kn{
+    color: rgb(220, 219, 219);
+    padding: 0 10px;
+}
+.kn:hover{
+    color: rgb(169, 85, 237);
+}
+.kn:active{
+    color: rgb(169, 85, 237);
+}
+
+.khung-timkiem{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.tl{
+    margin: 0 12px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.tl>a{
+    color: #fff;
+}
+.hienthi-nut{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    height: 60px;
+    width: 250px;
+    background-color: red;
+    right:-10px;
+    top: 56px;
+    align-items: flex-end;
+}
+.hienthi-nut::before{
+    content: "";
+    border: 14px solid;
+    border-color: transparent transparent transparent transparent;
+    position: absolute;
+    top: -28px;
+    right: 10px;
+}
+.khong-hienthi-nut{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    height: 60px;
+    width: 250px;
+    background-color: red;
+    right:-15px;
+    top: 36px;
+    align-items: flex-end;
+}
+.khong-hienthi-nut::before{
+    content: "";
+    border: 14px solid;
+    border-color: transparent transparent red transparent;
+    position: absolute;
+    top: -28px;
+    right: 10px;
+}
+
+.hienthi-nut a{
+    background-color: #040404;
+    color: #fff;
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 30px;
+
+}
+.khong-hienthi-nut a{
+    background-color: #040404;
+    color: #fff;
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 30px;
+
+}
+.kn-tk{
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    /* font-size: 1.6rem; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin: auto;
+
+}
+.khong-kn-tk{
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    /* font-size: 1.6rem; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.kn-tk:hover .hienthi-nut{
+    display: flex;
+}
+.khong-kn-tk:hover .khong-hienthi-nut{
+    display: flex;
+}
+.ten-nguoidung{
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+.noidung{
+    width: 100%;
+    display: block;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.dong {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.cot {
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 24px;
+}
+/* section */
+.khung-nd{
+    position: relative;
+}
+.s-dong{
+    border-bottom: 0.5px solid rgb(229, 227, 227);
+    padding-bottom: 40px;
+}
+.s-cot{
+    text-align: center;
+    line-height: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.s-chinh{
+    padding: 30px 0;
+    /* margin: 0 20px; */
+    border: 0.3px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    background-color: #fff;
+    transition: filter 1.3s, transform 1.6s, opacity 0.7s ease-in;
+}
+.s-chinh:hover{
+    transform: scale(2);
+    transform: translate(0, -20px);
+}
+.s-bt{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #2EE59D;
+}
+.bieutuong-s img{
+    color: #797c11;
+}
+.s-noidung p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #797c11;
+}
+.s-noidung h3{
+    color: #7e7d7d;
+    font-size: 0.9rem;
+
+}
+/* content */
+.nd-sanpham{
+    border-bottom: 0.5px solid rgb(229, 227, 227);
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+.tl-sanpham{
+    z-index: 3;
+    margin: 20px 0;
+    height: 260px;
+
+}
+.tl-sanpham .cot{
+    position: relative;
+   height: 100%;
+}
+.tl-sanpham .cot img{
+    border: 0.5px solid rgb(208, 205, 205);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
+
+}
+.tl-sanpham .cot img:hover{
+    transform: scale(1.05); 
+}
+.tl-noidung{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    margin:0 24px;
+    z-index: 888;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828;
+
+}
+.mau-lap{
+    color: #c81302;
+}
+.mau-chuot{
+    color: rgb(227, 238, 192);
+}
+.tl-noidung h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.tl-noidung p{
+    color: rgb(170, 151, 151);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.tl-sanpham a:hover .img{
+ 
+    border: 3px solid rgb(27, 183, 235);
+}
+/* Product view */
+
+/*.product-overview_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.overview{
+    font-family: Poppins;
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.menu-overview{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.list-overview{
+    margin-right: 40px;
+}*/
+.khung-chu{
+    margin: 30px auto;
+    text-align: center;
+}
+.chu{
+    position: relative;
+    margin: 50px auto;
+
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    letter-spacing: 3px;
+/*    text-shadow: 0px 5px 5px rgba(102, 101, 99, 0.8);*/
+}
+.chu::before{
+    border-bottom: 2px solid #f97e6c;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    z-index: 200;
+    bottom: -20px;
+}
+/*.link-overview{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(111, 108, 108);
+    font-family: 'Quicksand', sans-serif;
+}
+.link-overview:hover{
+    color: #4e64ef;
+    padding: 0 5px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: all 0.4s ease-in-out 0s;
+    font-size: 1.1rem;
+}*/
+.phanloai{
+    text-align: center;
+    margin: 20px;
+}
+.mauchu{
+    color: #858911; 
+}
+.phanloai-sp{
+    display: inline-block;
+    height: 36px;
+    min-width: 120px;
+    margin: 0px 8px;
+    border-radius: 10px;
+    border: 1px solid #b1b1ad;
+    text-align: center;
+    line-height: 36px;
+}
+.phanloai-sp:hover{
+    border: 1.5px solid #9f9308;
+/*    color: #858911;*/
+    cursor: pointer;
+}
+
+.active{
+    box-shadow: inset 0 0 0 0 white;
+    border: 1.5px solid #9f9308;
+    color: #858911;
+}
+/* Product */
+.sanpham{
+    padding: 20px 0;
+    position: relative;
+}
+.sanpham:hover{
+    border: 0.5px dashed #333;
+    transition: filter 0.5s, transform 0.5s, opacity 0.5s ease-in;
+    transform: translate(0, -10px);
+}
+.sanpham img{
+    width: 100%;
+}
+.thongtin-sp{
+    margin-top: 20px;
+    line-height: 24px;
+    font-family: Poppins;
+    font-size: 0.9rem;
+}
+.ten-sp{
+    color: rgb(122, 120, 120);
+}
+.ten-sp:hover{
+    color: #4e64ef;
+    padding: 0 5px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: all 0.4s ease-in-out 0s;
+    font-size: 1.1rem;
+}
+.nut-chitiet{
+    display: none;
+    bottom: 100px;
+    right: 30%;
+    z-index: 999;
+    position: absolute;
+    width: 40%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #5469ef;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.chan-sp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.them{
+    
+    text-align: center;
+    width: 32%;
+/*    height: 32px;*/
+    padding-top: 2px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b0a00e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.them:hover{
+    cursor: pointer;
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+}
+.nut-chitiet:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.sanpham:hover .nut-chitiet{
+    display: block;
+}
+.mau-nut{
+    color: #fff;
+}
+/* footer */
+.chantrang{
+    height: 150px;
+    align-items: center;
+    color: #fff;
+    background-color: #333;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.chantrang p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+/*//css page*/
+.pagination{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.pagination a {
+    display: block;
+    margin: 0 12px;
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+/* set the style for the active class */
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+/* add background color when user hovers on inactive class */
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}

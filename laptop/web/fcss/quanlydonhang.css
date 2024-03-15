@@ -1,0 +1,63 @@
+
+a{
+    text-decoration: none;
+}
+ul ,li{
+    list-style: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    text-align: center;
+  }
+  thead {
+    background-color: #1c87c9;
+    color: #ffffff;
+  }
+  th {
+    text-align: center;
+    height: 50px;
+  }
+  tbody tr:nth-child(odd) {
+    background: #ffffff;
+  }
+  tbody tr:nth-child(even) {
+    background: #f4f4f4;
+  }
+  .banggiohang{
+      display: none;
+  }
+  .hien{
+      display: block;
+  }
+  
+  .active{
+      text-decoration: none;
+      color: red;
+      font-size: 1.1rem;
+      font-weight: bold;
+  }
+  
+  .bangchitiet{
+    border: 1px solid #333;
+    padding: 10px;
+  }
+  .hoadon{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: #c9a91c;
+  }
+  .danhsachtieude{
+      display: flex;
+      justify-content: flex-start;
+      
+  }
+  .danhsachtieude li{
+      margin: 12px;
+  }

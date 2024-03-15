@@ -1,0 +1,68 @@
+
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*.main{*/
+.khung-cs{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+img{
+    margin-top: 40px;
+}
+.cs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tieude{
+    text-align: center;
+
+}
+
+.anh-sp{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 20px;
+}
+.chitiet{
+    flex: 3;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.infor{
+    display: flex;
+    flex-direction: column;
+}
+.onhap{
+    display: flex;
+    flex-direction: column;
+}
+.onhap input{
+    width: 100%;
+}
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+input{
+    height: 30px;
+    margin: 12px 0;
+}
+.xacnhan{
+    width: 100px;
+    height: 30px;
+}
+
+.thongbao{
+    color: red;
+    text-align: center;
+}

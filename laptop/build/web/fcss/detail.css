@@ -1,0 +1,270 @@
+.tieude-ttruot{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #040404;
+        align-items: center;
+    }
+.bieutuong{
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin: 0 50px;
+}
+.bieutuong-kn{
+        color: rgb(215, 220, 223);
+        flex: 1;
+}
+.bien-phai{
+        border-right: 0.5px solid rgb(120, 119, 119);
+}
+.thanhcongcu{
+        height: 100%;
+        line-height: 40px;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: row wrap;
+        align-items: center;
+}
+.congcu{
+
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.kn{
+    color: rgb(220, 219, 219);
+    padding: 0 10px;
+}
+.kn:hover{
+    color: rgb(169, 85, 237);
+}
+.kn:active{
+    color: rgb(169, 85, 237);
+}
+
+.khung-timkiem{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.tl{
+    margin: 0 12px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.tl>a{
+    color: #fff;
+}
+
+.hienthi-nut{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    height: 60px;
+    width: 250px;
+    background-color: red;
+    right:-10px;
+    top: 56px;
+    align-items: flex-end;
+}
+.hienthi-nut::before{
+    content: "";
+    border: 14px solid;
+    border-color: transparent transparent transparent transparent;
+    position: absolute;
+    top: -28px;
+    right: 10px;
+}
+.khong-hienthi-nut{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    height: 60px;
+    width: 250px;
+    background-color: red;
+    right:-15px;
+    top: 36px;
+    align-items: flex-end;
+}
+.khong-hienthi-nut::before{
+    content: "";
+    border: 14px solid;
+    border-color: transparent transparent red transparent;
+    position: absolute;
+    top: -28px;
+    right: 10px;
+}
+
+.hienthi-nut a{
+    background-color: #040404;
+    color: #fff;
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 30px;
+
+}
+.khong-hienthi-nut a{
+    background-color: #040404;
+    color: #fff;
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 30px;
+
+}
+.kn-tk{
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    /* font-size: 1.6rem; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin: auto;
+
+}
+.khong-kn-tk{
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    /* font-size: 1.6rem; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.kn-tk:hover .hienthi-nut{
+    display: flex;
+}
+.khong-kn-tk:hover .khong-hienthi-nut{
+    display: flex;
+}
+.ten-nguoidung{
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+.khung-sp{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.anh-sp{
+    flex: 2;
+
+}
+img{
+    width: 100%;
+    height: 450px;
+    border: 0.5px solid #333;
+}
+.chitiet{
+    flex: 3;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.ten-sp{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.gia{
+    margin: 0;
+    font-weight: 500;
+    /* margin: 20px 0; */
+    font-family: Poppins;
+}
+.mota{
+    color: rgb(105, 103, 103);
+    margin-bottom: 30px;
+}
+.sodong-hthi{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;  /* số dòng hiển thị */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.hthi-them{
+    display: block;
+    margin: 10px auto;
+}
+.anbot{
+    display: block;
+    margin: 10px auto;
+}
+.an{
+    display: none;
+}
+
+label{
+    color: black;
+    font-weight: 500;
+}
+select{
+    margin-left: 20px;
+    width: 50%;
+    height: 30px;
+    /* margin-bottom: 20px; */
+    border-radius: 5px;
+}
+#size{
+    margin-left: 46px;
+}
+#quantity{
+    width: 50%;
+    height: 30px;
+    margin-left: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid #333;
+}
+#quantity:focus{
+    outline: 1px solid rgb(48, 119, 219);
+}
+
+.giohang{
+    margin-top: 30px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    width: 30%;
+    margin: 0 12px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(82, 130, 231);
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #333;
+
+}
+
+
+table {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+table,
+td {
+    text-align: center;
+    border-bottom: 1px solid rgb(7, 7, 7);
+    border-collapse:collapse ;
+}
+
